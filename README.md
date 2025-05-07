@@ -19,7 +19,7 @@ services:
         target: /smbpasswd
         mode: 0600
     volumes:
-      - /rootpool/user:/shares
+      - /rootpool/user:/shares:rslave
       - samba_data:/var/lib/samba
     command: >
       /bin/sh -c "
