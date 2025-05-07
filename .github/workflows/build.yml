@@ -2,7 +2,7 @@ name: build
 on:
   workflow_dispatch:
   schedule:
-    - cron: "33 10 * * *"
+    - cron: "33 23 * * 6"
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
