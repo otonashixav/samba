@@ -60,9 +60,12 @@ configs:
         ;log level = 3
         
         catia:mappings = 0x22:0xa8,0x2a:0xa4,0x2f:0xf8,0x3a:0xf7,0x3c:0xab,0x3e:0xbb,0x3f:0xbf,0x5c:0xff,0x7c:0xa6
-        
+
+        fruit:aapl = yes
         fruit:nfs_aces = no
         fruit:resource = stream
+        fruit:metadata = stream
+        fruit:encoding = native
         fruit:time machine max size = 1T
         fruit:wipe_intentionally_left_blank_rfork = yes
         fruit:delete_empty_adfiles = yes
